@@ -24,6 +24,6 @@
         }
     },
     "extra": {
-        "class": "ZF1PublicAssetInstaller"
+        "class": "\\ZF1PublicAssetInstaller"
     }
 }
