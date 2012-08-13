@@ -1,0 +1,29 @@
+{
+    "name": "ddelrio1986/zf1-public-asset-installer",
+    "type": "composer-installer",
+    "description": "Installer for ZF1 public assets.",
+    "keywords": [
+        "zend",
+        "zendframework",
+        "zendframework1",
+        "zf",
+        "zf1",
+        "php"
+    ],
+    "authors": [
+        {
+            "name": "Daniel Del Rio",
+            "email": "ddelrio1986@gmail.com",
+            "homepage": "http://danieldelrio.me",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Pear_Style": "src/"
+        }
+    },
+    "extra": {
+        "class": "ZF1PublicAssetInstaller"
+    }
+}
