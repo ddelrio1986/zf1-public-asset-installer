@@ -1,5 +1,7 @@
 <?php
 
+namespace ddelrio1986\Composer;
+
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
 
@@ -18,6 +20,6 @@ class ZF1PublicAssetInstaller extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return "zf1-public-asset" === $packagetype;
+        return (bool)("zf1-public-asset" === $packagetype);
     }
 }

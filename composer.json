@@ -1,7 +1,7 @@
 {
     "name": "ddelrio1986/zf1-public-asset-installer",
+    "description": "Composer installer to place libraries in the public folder of ZF1 projects",
     "type": "composer-installer",
-    "description": "Installer for ZF1 public assets.",
     "keywords": [
         "zend",
         "zendframework",
@@ -20,10 +20,10 @@
     ],
     "autoload": {
         "psr-0": {
-            "Pear_Style": "src/"
+            "ddelrio1986\\Composer": "src/"
         }
     },
     "extra": {
-        "class": "\\ZF1PublicAssetInstaller"
+        "class": "ddelrio1986\\Composer\\ZF1PublicAssetInstaller"
     }
 }
