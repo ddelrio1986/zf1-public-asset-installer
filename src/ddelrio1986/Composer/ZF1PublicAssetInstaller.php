@@ -20,6 +20,6 @@ class ZF1PublicAssetInstaller extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return (bool)("zf1-public-asset" === $packagetype);
+        return (bool)("zf1-public-asset" === $packageType);
     }
 }
